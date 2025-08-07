@@ -79,7 +79,7 @@ export default function Home() {
                 />
               </div>
               <button
-                className="bg-[#376e7c] transition duration-700 ease-in-out hover:bg-[#268ba4ff] px-3 py-3 rounded-full transition duration-200"
+                className="bg-[#376e7c]  ease-in-out hover:bg-[#268ba4ff] px-3 py-3 rounded-full transition duration-200"
                 type="submit"
               >
                 <PlusIcon width={20} color="white" />
