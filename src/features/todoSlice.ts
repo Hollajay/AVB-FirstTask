@@ -7,6 +7,8 @@ export const todoSlice = createSlice({
     todos: [
       { task: "I want to go and watch" },
       { task: "how are you doing today" },
+       { task: "I want to go and watch" },
+      { task: "how are you doing today" },
     ],
   },
   reducers: {
