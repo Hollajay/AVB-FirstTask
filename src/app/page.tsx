@@ -16,7 +16,7 @@ export default function Home() {
 
   const [task, setTask] = useState("");
 
-  const submitTodo = (e: any) => {
+  const submitTodo = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     if (editIndex !== null) {
       dispatch(editTodo({ index: editIndex, newTask: task }));
